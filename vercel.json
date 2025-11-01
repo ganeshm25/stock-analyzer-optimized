@@ -1,5 +1,10 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev"
+  "devCommand": "npm run dev",
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "NEXT_PUBLIC_API_URL": "@next_public_api_url",
+    "NODE_ENV": "production"
+  }
 }
